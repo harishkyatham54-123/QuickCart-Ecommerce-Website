@@ -17,9 +17,6 @@ QuickCart is a responsive e-commerce web application developed using HTML, CSS, 
 - CSS3
 - JavaScript
 
-## Project Screenshots
-(Add your screenshots here after uploading to GitHub)
-
 ## Learning Outcomes
 - DOM Manipulation
 - Event Handling
