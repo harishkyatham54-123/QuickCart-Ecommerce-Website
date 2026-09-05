@@ -1,25 +1,34 @@
-# QuickCart E-Commerce Website
+# QuickCart - E-Commerce Website
 
-## Overview
+## 📌 Overview
+
 QuickCart is a responsive e-commerce web application developed using HTML, CSS, and JavaScript.
 
-## Features
-- Product Listing
-- Add to Cart
-- Remove from Cart
-- Wishlist Functionality
-- Dynamic Cart Count
-- Total Price Calculation
-- Responsive UI Design
+The project provides a simple and interactive shopping experience where users can browse products, add products to a shopping cart, manage their wishlist, and view the total price dynamically.
 
-## Technologies Used
+## 🚀 Features
+
+- Product browsing
+- Add products to cart
+- Remove products from cart
+- Shopping cart management
+- Wishlist functionality
+- Dynamic total price calculation
+- Responsive user interface
+- Interactive product experience
+
+## 🛠️ Technologies Used
+
 - HTML5
 - CSS3
 - JavaScript
 
-## Learning Outcomes
-- DOM Manipulation
-- Event Handling
-- Arrays and Objects
-- Functions
-- Dynamic UI Updates
+## 📂 Project Structure
+
+```text
+QuickCart-Ecommerce-Website/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
