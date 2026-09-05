@@ -3,25 +3,25 @@ const products = [
         id: 1,
         name: "Headphones",
         price: 1500,
-        image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500"
+        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='300' viewBox='0 0 500 300'%3E%3Crect width='500' height='300' fill='%23e8eefc'/%3E%3Ctext x='250' y='145' text-anchor='middle' font-size='70'%3E🎧%3C/text%3E%3Ctext x='250' y='210' text-anchor='middle' font-family='Arial' font-size='25' fill='%23152238'%3EHeadphones%3C/text%3E%3C/svg%3E"
     },
     {
         id: 2,
         name: "Smart Watch",
         price: 2500,
-        image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500"
+        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='300' viewBox='0 0 500 300'%3E%3Crect width='500' height='300' fill='%23e8eefc'/%3E%3Ctext x='250' y='145' text-anchor='middle' font-size='70'%3E⌚%3C/text%3E%3Ctext x='250' y='210' text-anchor='middle' font-family='Arial' font-size='25' fill='%23152238'%3ESmart Watch%3C/text%3E%3C/svg%3E"
     },
     {
         id: 3,
         name: "Keyboard",
         price: 1200,
-        image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500"
+        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='300' viewBox='0 0 500 300'%3E%3Crect width='500' height='300' fill='%23e8eefc'/%3E%3Ctext x='250' y='145' text-anchor='middle' font-size='70'%3E⌨️%3C/text%3E%3Ctext x='250' y='210' text-anchor='middle' font-family='Arial' font-size='25' fill='%23152238'%3EKeyboard%3C/text%3E%3C/svg%3E"
     },
     {
         id: 4,
         name: "Mouse",
         price: 800,
-        image: "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500"
+        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='300' viewBox='0 0 500 300'%3E%3Crect width='500' height='300' fill='%23e8eefc'/%3E%3Ctext x='250' y='145' text-anchor='middle' font-size='70'%3E🖱️%3C/text%3E%3Ctext x='250' y='210' text-anchor='middle' font-family='Arial' font-size='25' fill='%23152238'%3EMouse%3C/text%3E%3C/svg%3E"
     }
 ];
 
@@ -223,3 +223,5 @@ function removeWishlistItem(index) {
 
 
 displayProducts();
+updateCart();
+updateWishlist();
